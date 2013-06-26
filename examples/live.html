@@ -1,0 +1,14 @@
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+<a class="myAnchorCls">this is a test</a>
+</body>
+<script>
+$(document).ready(function() {
+  $("a.myAnchorCls").live("click", function(){ alert("Click bound via live!"); }); 
+});
+</script>
+</html>
